@@ -322,3 +322,13 @@ html{
 .copyright>.itelic_text{
     font-style: italic;
 }
+
+/* Responsive */
+
+@media (max-width:610px) {
+    .AddToCart_section>.Cart_block{
+        width: auto;
+        position: unset;
+        transform: none;
+    }
+}
